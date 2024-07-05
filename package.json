@@ -1,0 +1,24 @@
+{
+  "name": "ws-sync-ts",
+  "version": "1.0.0",
+  "description": "Synced Redux Store over WebSocket, core library in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.5",
+    "js-file-download": "^0.4.12",
+    "uuid": "^10.0.0"
+  }
+}
